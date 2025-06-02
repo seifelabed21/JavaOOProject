@@ -1,66 +1,36 @@
 # JavaOOProject
 Java Object Oriented Programming Project
-###### Classe Etudiant
-
-- matricule 
-- nom
-- prenom
-
-// Constructeur
-// Getters / Setters
-// afficher_info()
 
 
-###### Classe Matiere 
 
-- nom matiere
-- note DS
-- note Examen
-- coefficient
+📘 Student Grade Management System
+This Java project is a simple academic system that allows managing students, subjects, units, and report cards. It uses OOP principles such as encapsulation and class composition.
 
-// Constructeur
-// Getters / Setters
-// Calculer_moyenne_matiere()
-// afficher_matiere()
+💡 Key Components:
+Etudiant
+Represents a student with a unique ID, name, and surname.
 
+Matiere
+Represents a subject with DS and Exam grades, coefficient, and average calculation.
 
-###### Classe Unité
+Unité
+A group of subjects with its own coefficient. Includes methods to calculate unit average and manage its subjects.
 
-- nom unité
-- coefficient
-- matieres 
-- nb matieres
+RelevéDeNotes
+A student's report card containing multiple units. Allows adding units and calculating the general average.
 
-// Constructeur
-// Getters / Setters
-// Calculer_moyenne_unité()
-// ajouter_matiere()
-// afficher_unité()
+GestionNotes (Main class)
+Provides a menu and operations to:
 
+Add, search, modify, or delete students
 
-###### Classe Relevé_de_notes
+Enter grades and manage units
 
-- etudiant
-- unités
-- nbunités
+Display all report cards
 
-// Constructeur
-// Getters / Setters
-// ajouter_unité()
-// calculer_moyenne_generale()
-// afficher_relevé()
+Show class statistics (best student, class average, etc.)
 
+This program is a command-line Java application aimed at practicing object-oriented programming with a real-world academic use case.
 
-###### Classe Main (GestionNotes)
-
-// methode main()
-// ajouterEtudiant()
-// supprimerEtudiant()
-// modifierNote()
-// rechercherEtudiant(String matricule)
-// afficherTousLesReleves()
-// afficherStatistiques() (meilleure moyenne, moyenne générale de la classe, etc.)
-// ajouterUnitéetMatieres()
-// afficher_menu()
 
 
